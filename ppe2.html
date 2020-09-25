@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+     <link rel="shortcut icon" href="assets/images/gt_favicon.png">
+
+    <link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
+    <!-- Custom styles for our template -->
+    <!--    <link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen"> -->
+    <link rel="stylesheet" href="assets/css/main.css">
+	<title>PPE1</title>
+</head>
+<body style="background:url(https://goplayone.fr/wp-content/uploads/2018/02/cropped-background-site-1.jpg) no-repeat center fixed;background-size:cover; color: white;">
+<h1>Intitulé</h1>
+<p>
+M. Semblais a pour projet de monter deux cybercafés absolument identique :
+
+Le premier dans Brive-la-Gaillarde, le second à Malemort-sur-Corrèze.
+Nous devions faire une proposition d'équipement :
+
+Matériels nécessaires (pas de PC clé en main, vous choisirez chacun des composants)
+Composants (carte mère, processeur, boitier...),
+Périphériques (écran, souris...)
+Imprimantes
+Éléments d'interconnexion au réseau
+Logiciels requis suivant les différents usages<br><br><br><br>
+</p>
+
+
+
+
+
+
+<h1 style="text-align: center;">Quelques images du site  créé</h1>
+ <!--image slider start-->
+    <div class="slider" >
+      <div class="slides">
+        <!--radio buttons start-->
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+        <!--radio buttons end-->
+        <!--slide images start-->
+        <div class="slide first">
+          <img src="assets/images/cap1.png" alt="">
+        </div>
+        <div class="slide">
+          <img src="assets/images/site.png" alt="">
+        </div>
+        <div class="slide">
+          <img src="assets/images/cap2.png" alt="">
+        </div>
+        <div class="slide">
+          <img src="assets/images/cap1.png" alt="">
+        </div>
+        <!--slide images end-->
+        <!--automatic navigation start-->
+        <div class="navigation-auto">
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
+          <div class="auto-btn4"></div>
+        </div>
+        <!--automatic navigation end-->
+      </div>
+      <!--manual navigation start-->
+      <div class="navigation-manual">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+      </div>
+      <!--manual navigation end-->
+    </div>
+    <!--image slider end-->
+
+    <script type="text/javascript">
+    var counter = 1;
+    setInterval(function(){
+      document.getElementById('radio' + counter).checked = true;
+      counter++;
+      if(counter > 4){
+        counter = 1;
+      }
+    }, 3000);
+    </script>
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+        <script src="assets/js/headroom.min.js"></script>
+        <script src="assets/js/jQuery.headroom.min.js"></script>
+        <script src="assets/js/template.js"></script>
+        <script src="assets/js/navbar.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+        <script src="assets/js/animheader.js"></script>
+        <script src="assets/js/coloractive.js"></script>
+</body>
+</html>

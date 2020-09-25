@@ -1,0 +1,88 @@
+.admin{
+
+  font-size: 40px;
+  font-family: "Open sans", Helvetica, Arial;
+}
+
+.boite1{
+	background: #00792D;
+	width: 15%;
+	height: 220px;
+	margin-left: 34%;
+	-webkit-box-shadow: 2px 2px 4px #1D1BBC;
+	-moz-box-shadow: 2px 2px 4px #1D1BBC;
+	box-shadow: 2px 2px 4px #1D1BBC;
+	position: relative;
+	cursor:pointer;
+	text-align: center;
+	float: left;
+background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+}
+body{
+	color: white;
+}
+.jsp{
+	margin-top: 0;
+}
+.apropos{
+	margin-top: 20px;
+     width: 150px;
+}
+
+.boite2{
+	background: #E3970E;
+	width: 15%;
+	height: 220px;
+	margin-left: 20px;
+	-webkit-box-shadow: 2px 2px 4px #1D1BBC;
+	-moz-box-shadow: 2px 2px 4px #1D1BBC;
+	box-shadow: 2px 2px 4px #1D1BBC;
+	position: relative;
+	cursor:pointer;
+	text-align: center;
+	float: left;
+	    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+
+}
+.projet{
+
+     width: 160px;
+}
+.boite3{
+	background: #DD1EBF;
+	width: 15%;
+	margin-top: 50px;
+	height: 220px;
+	margin-left: 34%;
+	-webkit-box-shadow: 2px 2px 4px #1D1BBC;
+	-moz-box-shadow: 2px 2px 4px #1D1BBC;
+	box-shadow: 2px 2px 4px #1D1BBC;
+	position: relative;
+	cursor:pointer;
+	text-align: center;
+	float: left;
+	background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
+
+}
+.comp{
+	width: 160px;
+}
+.boite4{
+	background: url(https://graphiste.com/blog/wp-content/uploads/2017/09/hero-header-webdesign-810x403.jpg);
+	background-position: center;
+	background-repeat: repeat;
+	background-size: cover;
+	width: 15%;
+	height: 220px;
+	margin-left: 20px;
+	-webkit-box-shadow: 2px 2px 4px #1D1BBC;
+	-moz-box-shadow: 2px 2px 4px #1D1BBC;
+	box-shadow: 2px 2px 4px #1D1BBC;
+	position: relative;
+	cursor:pointer;
+	margin-top: 50px;
+	text-align: center;
+	float: left;
+
+}
+
